@@ -1,0 +1,161 @@
+1.<!DOCTYPE>----senedin novunu mueyyenlesdirir.Ilk olaraq bu tag yazilir.
+<!DOCTYPE html> 
+2.<html>-------html senedi mueyyenlesdirir.
+3.<title>------sened ucun bir movzu mueyyenlesdirir.
+</title> 
+My document
+<title>  
+4.<body> tag-inin icerisinde senedin mezmunu yazilir.Bura html senedi,link.sekil,cedvel ve s. aid ola biler.
+5.<h1>,<h2>,<h3>,<h4>,<h5>,<h6> html basliqlarinin olculerini mueyyenlesdirir.
+6.<p> ---bir paraqraf mueyyen edir.
+</p> 
+this is my repository
+<p>
+7.<br> tag-i de bir text yazir.Sadece novbeti setirden elave edir.Esasen seirlerin ve yaxud adreslerin  yazilmasinda istifade olunur.
+8.<hr> tag-i ise mezmunlari ayirmaq ucun istifade olunur.Bir xett elave edir.
+9.<!--...--> tagi ise icersindeki yazilanlari sadece koment olaraq bir serh olaraq qeyd edir.Bu esasen yazdigimiz kodlarin
+menalarini izahini vermek istediyimiz zaman istifade olunur ve elverislidir.
+10.<abrr> tag-i qisaltmalari mueyyenlesdirir. <abrr title=" Baku State University">BSU</abrr>
+11.<address> tag- i bir sened,meqalenin sahibi ucun elaqe melumati mueyyenlesdirir.
+<address> 
+written by <a href="mailto:A.Ismayilova94@hotmail.com"> Adel </a>.<br>
+Visit us at :<br>
+hotmail.com<br>
+USA
+</address>
+12.<b> tag-i yazdigimiz text-in rengini tundlesdirir.
+13.<blockquote> tag-i basqa bir menbeden sitat getirir.
+14.<cite> tag-i bir isin basligini qeyd edir. <p> <cite>The Scream</cite> by Edward Munch.
+15.<code>,<em>,<kbd>,<var>,<strong>,<samp> bu tag-ler yazilarin,metnlerin formatini deyismek ucun istifade olunur.
+16.<del> tag-i yazinin uzerinden xett cekmek ucun istifade olunur.
+17.<ins> tag-i yazinin altindan xett cekmek ucun istfade olunur.
+18.<i> tag-inde yazi italic seklinde olur.Bu tag esasen neyinse adini qeyd elemek lazim oldugu halda,ve ya basqa bir dilden
+goturulmus ifade olduqda istifade olunur.
+<p>I  named my ship <i>The  Titanic</i> </p>
+19.<mark> tag-i metni,yazinin fonunu sari rengle ferqlendirir.
+20.<meter> tag-i melum bir araliqd bir olcu skala mueyyen edir.
+<meter value=0.6> 60% </meter>
+21.<progress> tag-i artimi mueyyenlesdirir.
+Downloading progress:
+<progress value="45" max="100">
+</progress>
+22.<q> tag-i qisa bir deyimi ferqlendirir.
+23.<ruby> tag-i serqi asiya tipoqrafiyalarini yazarken istifade olunur.
+24.<rt> onlarin izahini ve ya deyilisini bildirmek ucun istifade olunur.
+25.<rp> ise browserin desteklemediyi tipoqrafiyalari nece gostermek lazim oldugunu mueyyelesdrir.
+26. <s> tag-i  artiq dogru olmayan bir text-in uzerinden xett cekmmek ucun istifade olunur.
+27.<small> kicik olculu textleri mueyyenlesdirir. ve yaxud serhlerde de istafe olunur.
+28.<sub> tag-i yazini ve ya reqemi indeksde yazmaq ucun isitfade olunur.Meselen kimyadan bildiyimiz sulfat tursunun formulunu 
+yazarken istifade olunur: H2 SO4
+29.<sup> tag-i ise metni ve ya reqemi ustlu quvvet seklinde yazarken istifade olunur.Meselen a-nin kvadratini yazarken istifade olunur.
+30.<time> tag -i vaxt ve zamani mueyyenlesdirir.
+31.<u> tag -i yazinin altindan xett cekmek ucun istifade olunur.
+32.<var> yazinin formatini mueyyenlesdirir.vairable
+33.<img> tag-i sekli elave etmek ucun istifade olunur.<img src="Picture1.png" alt="daireler" width="85" height="65">
+34.<audio> tag-i muxtelif ses,audio fayllari elave etmek ucun istifade olunur.
+<audio controls>
+  <source src="see.ogg" type="audio/ogg">
+  <source src="evezolunmaz.mp3" type="audio/mpeg">
+  Your browser does not support the audio element.
+</audio>
+35.<source>  2 cur olur.1-i audio faylin adini qeyd edir,2 cisi ise formatini,mpeg ve yaxud ogg oldugunu.
+36.<video> video fayl elave etmek ucundur.video tag de de hemcinin source istifade olunur.1 i faylin adini 2 cisi formatini mueyyen edir.
+37.<a> tag -i link elave etmek ucun istifade olunur.
+<a href="https://github.com/Adel-94"> Visit github.com </a>
+38.<ul> tag-i sifaris olunmamis listi elave etmek ucun istifade olunur.
+39.<li> tag-i listin bendlerini elave edir.
+40.<ol> tag-i ise secilmis listleri elave etmek ucun istifade olunur.Burada da bendleri elave ederken <li> tag-den isitfade olunur.bendler easen herflerle ve ya reqemlerle
+isarelenmis ola bilir.
+41.<dl> -yeni description list ,(tesvir siyahisi) yaradir.
+<dl>
+  <dt>Coffee</dt>
+  <dd>Black hot drink</dd>
+  <dt>Milk</dt>
+  <dd>White cold drink</dd>
+</dl>
+42.<dt> tag-i gorunduyu kimi burada tesvir siyahisinda adlari elave edir.
+43.<dd> tag-i ise bu adlarin xususiyetlerini tesvir edir.
+44.<table> tag-i cedvel yaratmaq ucun istifade olunur.sade html cedvel 2 setir ve 2 sutundan ibaret olur.
+<table>
+  <tr>
+    <th>Month</th>
+    <th>payment</th>
+  </tr>
+  <tr>
+    <td>March</td>
+    <td>$50</td>
+  </tr>
+  <tr>
+    <td>April</td>
+    <td>$120</td>
+  </tr>
+</table>
+45.<th> tag-i cedvelde basliqlar yaratmaq ucun istifade olunur.Burada Month ve Payment basliqlari kimi.
+46.<tr> tag-i cedvelin setirlerini yaradir.Burada March,50 ve April,120 kimi.
+47.<td> tag-i xanalara melumatlari yazir.
+48.<thead> tag-i cedvelde qrup basligi kimi istifade olunur.her bir cevdelda header,body,footer olur.Yeni basligi ,govdesi ve sonlugu.
+
+<table>
+ <thead>
+  <tr>
+    <th>Month</th>
+    <th>payment</th>
+  </tr>
+ </thead>
+ <tfoot>
+    <tr>
+     <td> Sum <td>
+     <td> $170 <td>
+    <tr>
+ <tfoot>
+ <tbody>
+   <tr>
+   <td>March</td>
+    <td>$50</td>
+  </tr>
+  <tr>
+    <td>April</td>
+    <td>$120</td>
+  </tr>
+ <tbody>
+</table>
+49.<style> tag-i senedin stilini mueyyenlesdirir.
+
+<head>
+    <style>
+    h1{color: red;}
+    p{color: blue;}
+    </style>
+    </head>
+50.<div> tag-i  html senedinin bir bolmesinin stilini mueyyyen edir.
+<div style="color: yellow">
+        <h2> this text will be yellow </h2>
+        <p> this text also will be yellow </p>
+    </div>
+51.<span> tag-i metnin her hansi bir hissesinin rengini deyismek lazim olduqda istifade olunur.
+
+<p> My sister has <span style="color: green;font-weight: bold"> green </span> eyes </p>
+52.<article> tag-i meqale tag-dir ve ,musteqildir,esasen bloq postlarin, yeni hekeyelerin,form postlarin yazilmasinda istifade olunur.
+53.<header> tag-i esasen textlerde basliqlari mueyyenlesdirir.bura daxildir.<h1>---<h6> tag-lari,logo ve ya ikonkalar ve s.
+54.<footer> tag-i ise senedin sonluqlarinin yazilmasinda,meselen,muellif haqqqinda ,kontakt informasiyasi,elaqe,saytla bagli unvan ve s.
+55.<main> tag-i bir senedde unikal olmalidir.Demek olarki 1 den cox istifade olunmur.<header>,<footer>,<article> ve s. tag -larin daxilinde olmur.
+senedin esas mezmununu ozunde eks etdirir.
+56.<section> tag-i senedde olan bir nece bolmlerin izzahini vererken istifade olunur.
+57.<details> tag-i senedde her hansi bir elementin bir movzunun detallarini yerlesdirir.Hansiki,bir basliq olur ve biz onu <summary> tag-i vasitesile veririk.
+Sadece ona klikledikden sonra itediyimiz melumatlarii ala bilerik.bir nov ozunde gizlilik saxlayir.
+<details>
+    <summary> Copyright 1994-2015 </summary>
+    <p>- by Refsnes Data. All Rights Reserved </p>
+58.<embed> tag-i animasiya elave edir.Meselen, 
+<embed src="Adel94.swf">
+59.<object> tag-i bu animasiyali metnin gostericilerini mueyyenlesdirir.Meselen,
+<object width="450" height="300" data="Adel94.swf"
+</object>
+60.<param> tag-i ne eger bir true qiymet versek,elave etdiyimiz audio fayl avtomatik baslanacaq ve qurtarana kimi davam edecek.Meselen,
+<object data="see.ogg">
+<param name="autoplay" value="true">
+</object>
+
+
+
+

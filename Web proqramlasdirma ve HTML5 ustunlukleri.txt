@@ -1,0 +1,45 @@
+Ilk once HTTP-ni qeyd edek.1990-ci ilde yaranmisdir.HyperText Transfer Prîtocîl – Internet s?b?k?sind? istifad? olunan protokoldur. HTTP veb-s?hif?l?ri Internetd?n cag?rmaq ucun bir mexanizmdir.
+HTTP-nin ?sas?n? URL unvan? t?skil edir. Unvan?n ?vv?lind? yaz?lm?s http:// perefeksi muraci?t olunan s?n?din umumdunya horumc?k torunun bir hiss?si oldugunu gost?rir.
+ Daha sonra ?laq?nin tipi gost?rilir. ?n cox yay?lm?s tip World Wide Web (WWW)-dir.
+ Lakin Internetd? dig?r ?laq? tipl?rind?n d? istifad? edilir: File Transfer Protocol (FTP) v? ya Gopher. Tipl?rin ard?nca serverin unvan? yaz?l?r (host). Bu unvan? domen unvan? da adland?r?rlar. 
+Esas realizasiyalar( kliyentler):Veb-brauzerl?r, m?s?l?n Mozilla Firefox, Chrome, Opera, Internet Explorer v? s.
+Esas realizasiyalar(serverler): Apache, Internet Information Services, Google Web Server, nginx v? s.
+HTML (Hypertext Markup Language) — brauzerin oxuya bil?c?yi h?r hans? s?n?di v? ya s?hif?ni yaratmaq ucun xususi hiperm?tn dilidir.
+Butun vveb-qovsaqlarda toplanm?s v? internet? qosulmus kompyuterl?rin ekranlar?nda gost?ril?n s?n?dl?r HTML proqram kodunda yaz?l?rlar.
+HTML – s?hif?l?rd? m?tn bloklar?n?n, t?svirl?rin yerl?sdirilm?sin?, c?dv?ll?rin qurulmas?na, s?n?din v? s?n?dd?ki m?tnin r?ngl?rinin secilm?sin?, multimediya elementl?rinin ?lav? edilm?sin?, hiperistinadlar?n v? butun bu elementl?r aras?nda ?laq?l?rin yarad?lmas?na imkan verir.
+Hiperm?tn koduna malik olan fayllar (.htm) v? (.html) genisl?ndirm?si il? gost?rilir.
+HTML1 1995-ci ilde cixmisdir.HTML 2.0 versiyas?n?n isl?nm?si basa catd?qdan sonra, HTML dili standartlasd?.
+O vaxta HTML dilinin yeni versiyas?n? cox brauzerl?r d?st?kl?yirdi.
+96-c? ild? art?q dilin HTML 3.2 (HTML 3.0 versiyas?nda c?dv?ll?r ?m?l? g?lmisdi) versiyas?n? butun brauzerl?r d?st?kl?yirdi.
+Bunun n?tic?sind? veb-dizayn yuks?k s?viyy?sin? yuks?ldi. Veb-dizayn eras?na baslang?c ver?n yeni imkanlar ortaya c?xd?.
+Dilin novb?ti versiyas? HTML 4.01 1999-cu ild? standartlasd?. Bundan sonra dilin t?kmill?sm?si dayand?r?ld?. Cunki, faktiki olaraq bundan basqa hec n? etm?k olmurdu. Muasir internet istifad?cil?rini daha da raz? salan yeni texnologiyalar ?m?l? g?ldi.
+Dinamik s?hif?l?r yaratmaga v? m?lumat bazas?na sorgu gond?rm?y? imkan ver?n muxt?lif proqramlasd?rma dill?ri yarand?. 
+Lakin 2004-cu ild? HTML-in yeni versiyas? HTML5-in yarad?lmas?na basland? v? 2014-cu il 28 Oktyabrda tamamland? v? standardlasd?r?ld?. 
+Stilin kaskad c?dv?ll?ri, CSS (ing. Cascading Style Sheets) — s?n?din xarici gorunusunun, isar?l?m? dilinin istifad?si il? yaz?lm?s, formal t?svir dili. Ad?t?n HTML v? XHTML isar?l?m? dill?rind? yaz?lm?s veb-s?hif?l?rin t?sviri v? t?rtibat? ucun istifad? edilir, lakin ist?nil?n dig?r XML s?n?dl?r?, m?s?l?n, SVG v? ya XUL-a da t?tbiq edil? bil?r.
+
+HTML s?n?dl?rini yaradark?n veb-dizaynerl?r muxt?lif mur?kk?b m?s?l?l?rl? qars?las?rlar:
+
+mu?yy?n abzas daxilind? sifr?l?rin d?yisdirilm?si;
+m?tnin v? ya t?svirin s?n?din h?r hans? bir yerind? yerl?sdirilm?si;
+m?tnin v? ya fonun r?nginin d?yisdirilm?si;
+muxt?lif veril?nl?r c?dv?ll?rinin format edilm?si v? s.
+Bu isl?ri standart usulla da yerin? yetirm?k olar, y?ni HTML dilind? h?r bir abzas? ayr?ca ?mrl?r y?g?m? il? t?svir etm?k mumkundur. 
+Bu halda proqram?n yaz?lmas? prosesi h?dd?n art?q c?tinl?s?c?k, s?n?din olcusu is? cox boyuk olacaq. 
+Bu isi sad?l?sdirm?k ucun s?hif?l?r? CSS standart?nda yerin? yetirilmis xarici fayl qosulur v? h?min faylda istifad? olunmus xususi makrodil vasit?sil? s?hif? bird?f?lik formatlasd?r?l?r. 
+Basqa sozl?, CSS fayl? burada sablon kimi istifad? edilir ki, onun kom?yil? HTML s?n?dl?rind? m?tnl?r, c?dv?ll?r v? dig?r elementl?r formatlasd?r?l?r. CSS standart?ndan hec bir m?hdudiyy?t qoyulmadan ist?nil?n serverd? istifad? etm?k olar.
+
+CSS kodlar?, HTML kodlar?n?n icin? yaz?la bildiyi kimi xarici bir CSS fayl? yarad?laraq da ?m?liyyat yarad?la bilir. Novun? gor? <code> <BODY> </ code> ya <code> <HEAD> </ code> bolm?l?rind? ala bil?rl?r. 
+Bundan basqa,<link rel="stylesheet" type="text/css" href="style.css" />koduyla CSS fayl? is s?hif?si ?lav? oluna bil?r. 
+Onlar? ayr?-faylda v? ya fayllarda saxlamaq, onlar? d?yisik HTML s?hif?l?rind? istifad? edilm?sini t?min edir, eyni s?hif?nin d?yisik cihazlara gor? formatland?r?lmas?n? asanlasd?r?r.
+CSS standart?nda fayllar?n format? .css s?klind?dir.
+HTML5 ile gelen yeni elementler bunlardir:
+canvas, audio, video, progress, caption, header, nav, footer, section, aside, article, embed, details, summary, time, mark, figcaption, figure, hgroup, datalist
+HTML 5 -in digerlerinden ustunlukleri ,gelen yenilikler:
+1.Kodlasdirma setirleri qisaldi.
+2.<video> tag-i elave olundu.Artiq web sehifelerde rahatliqla videolar elave edib,avtomatik baslatmasini heyata kecirmek ve s. mumkun olacaq.
+3.<audio> tag-i da elave olundu.ses fayllarini artiq web sehifelerde istifade etmek mumkun olacaq.
+4.<proqres> elave olundu.bunun vasitesile de sehifelerde yuklenmenin ne derecede oldugunu gormek mumkun olacaq.
+5.<header>,<footer>,<nav> tag-leri artiq qisa olraq bele qeyd olunacaqlar. Meselen, <div id="header>  kimi qebul olunurdu.
+6.<artiq <!doctype html>  yazmaq kifayetdir.
+
+
